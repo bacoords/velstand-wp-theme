@@ -21,16 +21,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<div class="col-md-12">
 
-				<footer class="site-footer" id="colophon">
+				<footer class="site-footer py-5" id="colophon">
 
-					<div class="site-info">
-						<a href="<?php echo esc_url( __( 'http://wordpress.org/','understrap' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'understrap' ),'WordPress' ); ?></a>
+					<div class="site-info text-center">
+						<small>&copy; <?php echo date('Y'); ?> Velstand Commercial.
+<!--
 						<span class="sep"> | </span>
-						<?php printf( // WPCS: XSS ok.
-							esc_html__( 'Theme: %1$s by %2$s.', 'understrap' ), $the_theme->get( 'Name' ),
-						'<a href="http://understrap.com/">understrap.com</a>' ); ?>
-						(<?php printf( // WPCS: XSS ok.
-							esc_html__( 'Version: %1$s', 'understrap' ), $the_theme->get( 'Version' ) ); ?>)
+						Website Design by  <a href="https://briancoords.com">BrianCoords.com</a>.</small>
+-->
 					</div><!-- .site-info -->
 
 				</footer><!-- #colophon -->

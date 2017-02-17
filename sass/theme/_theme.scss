@@ -1,1 +1,36 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+
+
+
+// Navbar
+.navbar-nav {
+  font-weight: 700;
+}
+
+.navbar-brand {
+  img {
+    width: 250px;
+  }
+}
+
+
+
+// Footer
+.site-footer {
+  background-color: $gray-lighter;
+}
+
+// Font Awesome List
+ul.fa-ul {
+  margin-left: 0;
+  li {
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+}

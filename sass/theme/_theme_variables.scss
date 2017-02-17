@@ -5,10 +5,30 @@
 // Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
 // Just add your color code here, compile the theme.scss file to change this color everywhere
 
-$font-family-sans-serif:Arial, sans-serif;
-$brand-primary:         #7852B2; //#ff6d5a
+$brand-primary:                   rgb(27, 141, 182); //#03A9F4;
+$brand-success:                   rgb(239, 119, 56); //#FF9800; 
 
-// Basics of a navbar
-$navbar-height:                    60px;
+
+// Navbar
+$navbar-padding-y:                 1rem;
 $navbar-margin-bottom:             0px;
 $navbar-border-radius:             0px;
+$navbar-light-color:               rgba($brand-primary,1) !default;
+$navbar-light-hover-color:         rgba($brand-primary,.7) !default;
+$navbar-light-active-color:        rgba($brand-success,.9) !default;
+$navbar-light-disabled-color:      rgba($brand-primary,.3) !default;
+
+// Layout
+$grid-gutter-width-base:           0;
+
+
+// Typography
+
+$font-family-sans-serif:          'Open Sans', sans-serif;
+$font-size-base:                  1.1rem !default;
+$headings-font-weight:            700;
+$headings-color:                  $brand-success; 
+$font-size-h1:                    3.5rem !default;
+
+// Buttons
+$btn-font-weight:                 700 !default;
