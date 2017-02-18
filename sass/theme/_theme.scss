@@ -30,8 +30,8 @@ body {
 ul.fa-ul {
   margin-left: 0;
   li {
-    padding-bottom: 0.9rem;
-
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
     @include media-breakpoint-up(sm) { 
       font-size: 1.3rem; 
     }
