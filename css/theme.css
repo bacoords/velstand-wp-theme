@@ -10002,8 +10002,10 @@ body {
 ul.fa-ul {
   margin-left: 0; }
   ul.fa-ul li {
-    padding-bottom: 1rem;
-    font-size: 1.3rem; }
+    padding-bottom: 0.9rem; }
+    @media (min-width: 576px) {
+      ul.fa-ul li {
+        font-size: 1.3rem; } }
 
 /*
 * Use existing Bootstrap 4 classes and
