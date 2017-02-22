@@ -60,7 +60,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_custom_logo();
 					} ?>
 -->
-					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/velstand-logo-blue.png" alt="<?php bloginfo( 'name' ); ?>"></a>
+					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/velstand-logo-blue.2.png" alt="<?php bloginfo( 'name' ); ?>"></a>
 					
 					<!-- end custom logo -->
 					
