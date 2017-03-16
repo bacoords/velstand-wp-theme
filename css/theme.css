@@ -10044,9 +10044,11 @@ ul.fa-ul {
     color: #d9534f !important;
     border: 1px solid #eceeef !important; }
   .wpcf7 .wpcf7-form-control {
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    display: block; }
   .wpcf7 .wpcf7-radio {
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    display: block; }
 
 /*
 * Use existing Bootstrap 4 classes and
