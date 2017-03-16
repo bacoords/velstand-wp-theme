@@ -10043,6 +10043,8 @@ ul.fa-ul {
   .wpcf7 .wpcf7-validation-errors {
     color: #d9534f !important;
     border: 1px solid #eceeef !important; }
+  .wpcf7 .wpcf7-form-control {
+    margin-bottom: 1.5rem; }
 
 /*
 * Use existing Bootstrap 4 classes and
