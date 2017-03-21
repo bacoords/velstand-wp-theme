@@ -45,6 +45,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php wp_footer(); ?>
 
+<?php if( is_page( 'investor-questionnaire' ) ) : ?>
+<script>
+
+$.noConflict();
+jQuery( document ).ready(function( $ ) {
+  console.log('call sel2button');
+  $('select[class=sel2button]').select2Buttons();
+});
+
+</script>
+<?php endif; ?>
 </body>
 
 </html>
