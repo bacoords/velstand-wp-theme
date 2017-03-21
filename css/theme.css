@@ -10036,6 +10036,9 @@ ul.fa-ul {
 .wpcf7 {
   max-width: 600px;
   margin: 0 auto !important; }
+  .wpcf7 .wpcf7-form h3, .wpcf7 .wpcf7-form h4 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem; }
   .wpcf7 .wpcf7-form label {
     width: 100%; }
   .wpcf7 .wpcf7-not-valid-tip {
@@ -10044,11 +10047,18 @@ ul.fa-ul {
     color: #d9534f !important;
     border: 1px solid #eceeef !important; }
   .wpcf7 .wpcf7-form-control {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     display: block; }
+  .wpcf7 .wpcf7-submit {
+    margin-top: 2rem; }
   .wpcf7 .wpcf7-radio {
     margin-bottom: 3rem;
-    display: block; }
+    display: block;
+    border: 1px solid #004B8E;
+    border-radius: 4px;
+    padding: 0.5rem; }
+    .wpcf7 .wpcf7-radio .wpcf7-list-item-label {
+      color: #004B8E; }
     .wpcf7 .wpcf7-radio input[type='radio']:after {
       width: 20px;
       height: 20px;
