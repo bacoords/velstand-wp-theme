@@ -50,12 +50,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 jQuery( document ).ready(function( ) {
-  jQuery('select[name=individual-income]').select2Buttons();
-  jQuery('select[name=joint-income]').select2Buttons();
-  jQuery('select[name=net-worth]').select2Buttons();
-  jQuery('select[name=business]').select2Buttons();
-  jQuery('select[name=experience-check]').select2Buttons();
-  jQuery('select[name=international]').select2Buttons();
+  jQuery('select[name=individual-income]').select2Buttons({noDefault: true});
+  jQuery('select[name=joint-income]').select2Buttons({noDefault: true});
+  jQuery('select[name=net-worth]').select2Buttons({noDefault: true});
+  jQuery('select[name=business]').select2Buttons({noDefault: true});
+  jQuery('select[name=experience-check]').select2Buttons({noDefault: true});
+  jQuery('select[name=international]').select2Buttons({noDefault: true});
 });
 
 </script>

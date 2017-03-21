@@ -33,8 +33,8 @@
 }
 
 .select2Buttons a {
-  color: #3c89c8;
-  padding: 4px;
+  color: $brand-primary;
+  padding: 0.5rem 1rem;
   text-align: center;
   text-decoration: none;
   font-size: 15px;  
@@ -69,4 +69,11 @@
   background: #d1d1d1;
   border-color: #d1d1d1;
   color: #FFF;
+}
+
+
+.select2Buttons { 
+  display: block;
+  width: 100%;
+  min-height: 50px;
 }
